@@ -5,10 +5,6 @@ class Pages extends CI_Controller {
 
 	public function index()
 	{
-		// $this->load->view('template_view');
-		$this->load->view('blocks/scripts_view.php');
-		$this->load->view('blocks/header_view.php');
-		$this->load->view('blocks/body_view.php');
-		$this->load->view('blocks/footer_view.php');
+		$this->template->page_view();
 	}
 }
